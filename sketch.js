@@ -12,15 +12,14 @@ This uses a pre-trained model of The Great Wave off Kanagawa and Udnie (Young Am
 let inputImg;
 let statusMsg;
 let transferBtn;
-let style1;
-let style2;
+let style;
 
 function setup() {
   noCanvas();
   // Status Msg
   statusMsg = select('#statusMsg');
 
-  // Get the input image
+  // get the input images
   inputImg = select('#inputImg');
 
   // Transfer Button
